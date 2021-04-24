@@ -1,0 +1,22 @@
+{
+  "name": "beem-africa",
+  "version": "1.0.0",
+  "description": "scraping tool assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scrape",
+    "scraper",
+    "nodejs"
+  ],
+  "author": "KaruguDev",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "table-scraper": "^1.0.3",
+    "url": "^0.11.0"
+  }
+}

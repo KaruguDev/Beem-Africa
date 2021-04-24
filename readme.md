@@ -1,11 +1,11 @@
 ## Installation
 
-### cd into <project folder>
+1. cd into <project folder>
 
-### npm install
+2. npm install
 
 ## Run
 
-### make sure you have nodemon installed
+1. make sure you have nodemon installed
 
-### nodemon <project folder>
+2. nodemon <project folder>

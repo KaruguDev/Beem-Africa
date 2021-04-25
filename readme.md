@@ -1,6 +1,6 @@
 ## Installation
 
-1. cd into `<project folder>`
+1. change directory cd `/PATH/<project folder>`
 
 2. npm install
 

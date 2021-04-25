@@ -3,10 +3,12 @@
 1. change directory 
     - `cd /PATH/<project folder>`
 
-2. npm install
+2. install node modules
+    - `npm install`
 
 ## Run
 
-1. make sure you have nodemon installed
+1. install nodemon
 
-2. `nodemon <project folder>`
+2. run project locally
+    - `nodemon <project folder>`

@@ -10,6 +10,7 @@ const dataURL = 'https://www.mcc-mnc.com/'
 app.get('/', async (req, res) => {
     //get filters
     let filters = url.parse(req.url, true).query
+    filters = JSON.parse(JSON.stringify(filters))
 
     //get  data
     let data = await getData(dataURL, filters)
@@ -24,6 +25,7 @@ app.get('/networks', async (req, res) => {
     //get  data
     let data = await getData(dataURL, filters)
     data = _.map(data, _.partialRight(_.pick, ['Network']))
+    //data = _.map(data, (x) => x['Network'] )
     res.send(data)
 })
 

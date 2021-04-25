@@ -1,6 +1,6 @@
 ## Installation
 
-1. change directory cd `/PATH/<project folder>`
+1. change directory `cd /PATH/<project folder>`
 
 2. npm install
 
@@ -8,4 +8,4 @@
 
 1. make sure you have nodemon installed
 
-2. nodemon `<project folder>`
+2. `nodemon <project folder>`

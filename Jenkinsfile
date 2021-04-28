@@ -11,6 +11,7 @@ pipeline {
       steps {
         sh '''echo installing libraries...
 pwd
+ls
 npm install'''
       }
     }

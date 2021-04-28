@@ -9,7 +9,8 @@ pipeline {
 
     stage('Merge Request') {
       steps {
-        sh '''git checkout master
+        sh '''git fetch
+git checkout -b master
 
 #Merge it with pull request (insert your pull id)
 git merge --no-ff pull/ID/head:develop

@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('Install Libraries') {
       steps {
-        sh '''su - root
+        sh '''echo $USER
+docker -v
 apt install npm
 npm install'''
       }

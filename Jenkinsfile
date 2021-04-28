@@ -1,9 +1,10 @@
 pipeline {
   agent any
   stages {
-    stage('Add Node') {
+    stage('Install Libraries') {
       steps {
-        dockerNode(image: 'node:lts-buster-slim')
+        sh '''apt install npm
+npm install'''
       }
     }
 

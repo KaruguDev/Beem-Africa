@@ -10,6 +10,7 @@ pipeline {
     stage('Install Libraries') {
       steps {
         sh '''echo installing libraries...
+pwd
 npm install'''
       }
     }

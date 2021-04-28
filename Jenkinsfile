@@ -10,8 +10,7 @@ pipeline {
     stage('Install Libraries') {
       steps {
         sh '''echo installing libraries...
-pwd
-ls
+chown -R 112:117 "/.npm"
 npm install'''
       }
     }

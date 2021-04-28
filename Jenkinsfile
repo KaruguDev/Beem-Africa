@@ -9,9 +9,7 @@ pipeline {
   stages {
     stage('Install Libraries') {
       steps {
-        sh '''echo installing libraries...
-
-npm install'''
+        sh 'npm install'
       }
     }
 
